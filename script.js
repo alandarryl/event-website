@@ -1,7 +1,7 @@
 
 //counter
 
-var DeadLIne = new Date("june 29, 2025 8:30:25").getTime();
+var DeadLIne = new Date("sept 25, 2025 8:30:25").getTime();
 var x = setInterval(function() {
     var now = new Date().getTime();
     var t = DeadLIne - now;
@@ -16,10 +16,20 @@ var x = setInterval(function() {
     document.getElementById("counter").innerHTML = days + "D - " + hours + "H - "
         + minutes + "M - " + seconds + "S ";
 
+    document.getElementById("counter1").innerHTML = days + "D - " + hours + "H - "
+        + minutes + "M - " + seconds + "S ";
+
     if (t < 0) {
         clearInterval(x);
         document.getElementById("counter").innerHTML = "EXPIRED";
     }
+
+
+    if (t < 0) {
+        clearInterval(x);
+        document.getElementById("counter1").innerHTML = "EXPIRED";
+    }
+
 }, 1000);
 
 // Navbar ScrollBar
