@@ -6,7 +6,7 @@ var x = setInterval(function() {
     var now = new Date().getTime();
     var t = DeadLIne - now;
 
-    console.log(t);
+    // console.log(t);
 
     var days = Math.floor(t/ (1000 * 60 * 60 * 24));
     var hours = Math.floor((t% (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));

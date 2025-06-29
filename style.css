@@ -319,3 +319,69 @@ html::-webkit-scrollbar-track{
 /* join section end */
 
 
+/* speaker section start */
+
+.speaker{
+    margin-bottom: 200px;
+    position: relative;
+}
+
+.speaker .content{
+    text-align: center;
+    margin: 40px auto;
+}
+
+.speaker .content h6{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--main);
+}
+
+.speaker .content h5{
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.speaker .row{
+    margin: 100px auto;
+}
+
+.speaker .box{
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    margin: 10px ;
+}
+
+.speaker .box img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.speaker .box:hover img{
+    transform: scale(1.1);
+}
+
+.speaker .BoxContent{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    background: #000;
+    opacity: 0;
+}
+
+.speaker .box:hover .BoxContent{
+    opacity: 1;
+}
+
+.speaker .BoxContent h6{
+    font-size: 60px;
+}
+
+/* speaker section end */
+
+
