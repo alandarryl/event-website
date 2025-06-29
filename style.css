@@ -127,17 +127,17 @@ html::-webkit-scrollbar-track{
 }
 
 .header .content h6{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
 }
 
 .header .content h6 span{
-    font-size: 55px;
+    font-size: 50px;
     color: var(--main);
 }
 
 .header #counter{
-    font-size: 60px;
+    font-size: 30px;
     font-weight: 600;
 }
 
@@ -326,18 +326,18 @@ html::-webkit-scrollbar-track{
     position: relative;
 }
 
-.speaker .content{
+.speaker .content , .news .content{
     text-align: center;
     margin: 40px auto;
 }
 
-.speaker .content h6{
+.speaker .content h6 , .news .content h6{
     font-size: 20px;
     font-weight: 600;
     color: var(--main);
 }
 
-.speaker .content h5{
+.speaker .content h5 , .news .content h5{
     font-size: 45px;
     font-weight: 900;
 }
@@ -383,5 +383,95 @@ html::-webkit-scrollbar-track{
 }
 
 /* speaker section end */
+
+
+
+/* news section start */
+
+.news {
+    margin-bottom: 200px;
+}
+
+.news .box{
+    box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.4), inset 10px 10px 10px -10px rgba(0, 0, 0, 0.9);
+}
+
+.news .boxContent{
+    padding: 20px;
+}
+
+.news .boxContent h6{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.news img{
+    cursor: pointer;
+}
+
+.news .boxContent a{
+    color: var(--main);
+    font-size: 25px;
+}
+
+.news .mid{
+    margin-top: 40px;
+}
+
+/* news section ends */
+
+
+/* footer start */
+
+
+footer p{
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* footer ends */
+
+/* popup section start */
+
+.modal-body{
+    background: #000;
+    color: #fff;
+}
+
+.modal-body .container h6{
+    font-size: 40px;
+    text-align: center;
+    margin: 20px auto;
+    font-weight: 600;
+}
+
+.modal-body .container input , .modal-body .container textarea{
+    background: none;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.modal-body .container .form-group{
+    margin: 10px auto;
+}
+
+.modal-body .container .btn{
+    width: 100%;
+    margin: 10px auto;
+}
+
+.modal-body .container input::placeholder , .modal-body .container textarea::placeholder{
+    color: #fff;
+}
+
+/* popup section ends */
+
 
 
